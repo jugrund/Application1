@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/first"
+            android:name="de.example.grund.application1.BlankFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:layout="@layout/fragment_blank"
+            tools:context=".MainActivity"
+            android:layout_weight="1"></fragment>
+
+        <fragment
+            android:id="@+id/second"
+            android:name="de.example.grund.application1.BlankFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:layout="@layout/fragment_blank"
+            tools:context=".MainActivity"
+            android:layout_weight="1"></fragment>
+
+        <fragment
+            android:id="@+id/third"
+            android:name="de.example.grund.application1.BlankFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:layout="@layout/fragment_blank"
+            tools:context=".MainActivity"
+            android:layout_weight="1"></fragment>
+
+    </LinearLayout>
+</HorizontalScrollView>
+
